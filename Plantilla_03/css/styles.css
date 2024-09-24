@@ -1,0 +1,17 @@
+
+#one{
+  padding-top: 160px;
+}
+
+.card-img-top {
+  height: 450px; 
+  object-fit: cover; 
+}
+
+.bg-dark-transparent {
+  background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.custom-padding-top {
+padding-top: 150px;
+}
