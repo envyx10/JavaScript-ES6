@@ -36,7 +36,7 @@ https://envyx10.github.io/JavaScript-ES6/Plantilla_03/main.html
 <h1 id="code">Code snippets</h1>
 He utilizado los siguientes: <br>
 
-- Boostrap5 <br>
+- Bootstrap 5 <br>
 - w3school  <br>
 - copilot
   
