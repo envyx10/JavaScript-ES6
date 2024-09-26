@@ -12,7 +12,7 @@
   <li><a href="#mock">Mockups</a></li>
 </ul>
 
-# Enlace Proyecto
+# Enlaces Proyecto
 Ejercicio plantilla 03 - https://envyx10.github.io/JavaScript-ES6/Plantilla_03/main.html <br>
 Ejercicio con implementacion del prompt - https://envyx10.github.io/JavaScript-ES6/prompt/main.html
 
