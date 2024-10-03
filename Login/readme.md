@@ -72,7 +72,7 @@ He utilizado los siguientes: <br>
   
 <h1 id="mock">Mockups</h1>
 
-![alt text](image.png)
+![login_mock](https://github.com/user-attachments/assets/b2ed1c56-b44d-4229-8078-c32be1b102af)
 ![mockup_mobile-me](https://github.com/user-attachments/assets/1298a1bb-cc49-4d53-ac02-ebf8f45827ad)
 ![mockup_main](https://github.com/user-attachments/assets/543e98e0-b3c6-4f31-9847-65590f033947)
 ![mockup_EJ01](https://github.com/user-attachments/assets/964bef26-c172-42d0-a063-4abaa585904a)
