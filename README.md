@@ -17,8 +17,7 @@
 </ul>
 
 # Enlaces Proyecto
-Ejercicio plantilla 03 - https://envyx10.github.io/JavaScript-ES6/Plantilla_03/main.html <br>
-Ejercicio login - <br>
+[Ejercicio plantilla 03 - https://envyx10.github.io/JavaScript-ES6/Plantilla_03/main.html ](https://envyx10.github.io/JavaScript-ES6/Login/login.html )<br>
 
 <h1 id="introduccion">Introducción</h1>
 
