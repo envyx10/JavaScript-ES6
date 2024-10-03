@@ -26,7 +26,7 @@ function logueo() {
       vaya hacia el login.
       */
 
-      window.location.href ="main.html" ;
+      window.location.href ="../../main.html" ;
 
     } else {
 
