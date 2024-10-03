@@ -9,8 +9,8 @@ let confirmacion ;
 
 function esLogin(){
     
-    user = prompt("Please enter your name", "Name");
-    pass = prompt("Please enter your password", "Password");
+    user = prompt("Please enter your name", "El usuario es Pablo");
+    pass = prompt("Please enter your password", " La clave es 1234");
     
     if (user === "" || pass === "") {
         alert("Acceso cancelado");
