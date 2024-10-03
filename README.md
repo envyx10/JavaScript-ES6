@@ -17,7 +17,7 @@
 </ul>
 
 # Enlaces Proyecto
-https://envyx10.github.io/JavaScript-ES6/Login/login.html <br>
+https://envyx10.github.io/JavaScript-ES6/Login/ejercicios/login/login.html <br>
 
 <h1 id="introduccion">Introducción</h1>
 
