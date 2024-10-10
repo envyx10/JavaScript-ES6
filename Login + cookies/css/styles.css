@@ -1,0 +1,38 @@
+#one{
+padding-top: 160px;
+}
+
+.card-img-top {
+height: 450px; 
+object-fit: cover; 
+}
+
+.bg-dark-transparent {
+background-color: rgba(0, 0, 0, 0.8); 
+}
+
+.custom-padding-top {
+padding-top: 150px;
+}
+
+.custom-pt{
+padding-top: 15% !important;
+}
+
+.button-bg-custom{
+background-color: #333333 !important;
+border-color: #333333 !important;
+}
+ 
+.button-bg-custom:hover{
+background-color: #7C70FF !important; 
+border-color: #7C70FF!important;
+}
+
+.fs-custom{
+font-size: 30px !important;
+margin-right: 20px;
+}
+
+
+
