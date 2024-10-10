@@ -15,10 +15,8 @@ Profesor - J.
 <h1 id="indice">Indice</h1>
 <ul>
   <li><a href="#introducción">Introducción</a></li>
-  <li><a href="#caracteristicas">Caracteristicas</a></li>
   <li><a href="#actividad-de-inicio-de-sesión---login--cookies">Login</a></li>
   <li><a href="#code-snippets">CodeSnippets</a></li>
-  <li><a href="#mockups">Mockups</a></li>
 </ul>
 
 <h1 id="introducción">Introducción</h1>
