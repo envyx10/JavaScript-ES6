@@ -12,9 +12,6 @@ Profesor - J.
 
 ![image](https://github.com/user-attachments/assets/4377f231-3a60-4948-8136-cea4a86cfe11)
 
-# Enlaces Proyecto
-https://envyx10.github.io/JavaScript-ES6/Login/ejercicios/login/login.html <br>
-
 <h1 id="introduccion">Introducción</h1>
 
 > [!NOTE]
