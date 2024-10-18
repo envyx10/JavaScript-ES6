@@ -42,23 +42,3 @@ He utilizado los siguientes:
 ![mockup_main](https://github.com/user-attachments/assets/543e98e0-b3c6-4f31-9847-65590f033947)
 ![mockup_EJ01](https://github.com/user-attachments/assets/964bef26-c172-42d0-a063-4abaa585904a)
 
-## Explicación General del código version 1.1 - BEFORE cookies
-
-- **Modo Estricto**: Se utiliza `"use strict";` para mejorar la detección de errores y el rendimiento.
-- **Credenciales**: Se definen las credenciales correctas (`Pablo` y `1234`).
-- **Formulario de Inicio de Sesión**: Se obtiene el formulario de inicio de sesión y se añade un evento de clic para manejar la validación.
-- **Validación**: 
-  - Se verifica que el nombre de usuario tenga al menos 3 caracteres.
-  - Se comparan las credenciales ingresadas con las correctas.
-- **Redirección**: Si las credenciales son correctas, se redirige al usuario a `main.html`. Si no, se muestra una alerta de error.
-- **Carga del DOM**: La función `logueo` se ejecuta una vez que el contenido del DOM se ha cargado completamente.
-
-## Explicación General del código version 1.2 - POST cookies
-
-Este conjunto de funciones JavaScript maneja las cookies de un sitio web, incluyendo la creación, lectura y eliminación de cookies. También incluye una función para gestionar la acción de logout (cerrar sesión).
-
-- **`setCookie`**: Esta función crea una nueva cookie. Acepta el nombre de la cookie, su valor y la duración en minutos. Si se especifica una duración, la cookie se establece con una fecha de expiración.
-- **`eraseCookie`**: Esta función elimina una cookie específica estableciéndola con una fecha de expiración pasada.
-- **`getCookie`**: Esta función busca y devuelve el valor de una cookie específica. Si no encuentra la cookie, retorna `null`.
-- **Logout**: Un event listener en `DOMContentLoaded` busca un elemento con el ID `logout` y, al hacer clic, elimina la cookie `loggedIn` y redirige al usuario a la página de login.
-
