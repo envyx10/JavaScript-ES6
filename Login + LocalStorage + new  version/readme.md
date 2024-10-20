@@ -1,39 +1,40 @@
 <!-- 
 
 Trabajo realizado por Pablo Gil Díaz alias Envy.
-Finalizado día 03/10.
 Asignatura -  Entorno cliente.
-Profesor - J.
 
 -->
 
-<h1>Desarrollo Web en Entorno Cliente - 2º DAW</h1>
-<h3>By Pablo Gil Díaz</h3>
+# Última Versión - Nuevas Modificaciones
 
-![image](https://github.com/user-attachments/assets/4377f231-3a60-4948-8136-cea4a86cfe11)
+**Estructura de Carpetas**
+En esta nueva versión, se ha reorganizado completamente la estructura de carpetas para mejorar la organización y facilitar la navegación:
 
-<h1 id="indice">Índice</h1>
-<ul>
-  <li><a href="#introducción">Introducción</a></li>
-  <li><a href="#caracteristicas">Características</a></li>
-  <li><a href="#localstorage">Login y LocalStorage</a></li>
-  <li><a href="#code">Code Snippets</a></li>
-</ul>
+- **localStorage**: Contiene todos los documentos relacionados con el almacenamiento local.
+- **Strings**: Incluye todos los documentos que tratan sobre la manipulación de cadenas de texto.
 
-<h1 id="introducción">Introducción</h1>
+## <b>Ejercicios</b>
+Se ha simplificado los ejercicios disponibles. Los ejercicios básicos iniciales han sido eliminados y se han mantenido aquellos a partir de `plantilla03`, los cuales ofrecen un mayor valor educativo.
 
-> [!NOTE]
-> Este proyecto es una práctica diseñada para mejorar las habilidades en JavaScript ES6 y Bootstrap 5. La página web creada es completamente responsiva y utiliza las últimas características de ES6 para proporcionar una experiencia de usuario moderna y eficiente.
-  
->[!IMPORTANT]
-> Proyecto totalmente didáctico para poner en práctica lo aprendido en clase.
+## <b>Nav-bar Mejorado</b>
+El navbar ha sido rediseñado para ser más sencillo y directo. Ahora incluye:
 
-<h1 id="localstorage">Actividad de Inicio de Sesión - Login + LocalStorage</h1>
+- **Enlace a GitHub**: Un acceso directo a mi repositorio.
+- **Subselect de Ejercicios**: Un menú desplegable que contiene los ejercicios a entregar.
+- **Icono de logout**: Botón para desloguearte de la sesión e ir al login.
 
-Este proyecto implementa una función de inicio de sesión simple en JavaScript utilizando LocalStorage para gestionar el estado del usuario. A continuación, se describen los puntos clave del código.
+## <b>Cambios en el `main.html`</b>
+- El archivo `main.html` ha recibido una actualización menor. La sección "About Me" ahora presenta una breve introducción personal, ofreciendo una visión rápida sobre quién soy.
 
-## Explicación General del código - Manipulación de Strings
+- El archivo `main.html` también ha sufrido un cambio de organización y ahora está ubicado dentro de una carpeta llamada `main`. He decidido destacar el archivo `login.html` principalmente por cuestiones de organización.
 
+## <b>Datos IMPORTANTES a tener en cuenta</b>
+- Es necesario ejecturar el ejercicio mediante **LiveServer** para ver el funcionamiento completo, dado que puede generar fallos en la preview de web en github.
+
+- Al usar localStorage para gestionar la sesión, una vez que inicias sesión, siempre serás dirigido al main.html porque se reconoce que ya has iniciado sesión, similar a cómo funcionan las cookies. Para volver a la pantalla de inicio de sesión, utiliza la funcionalidad de cierre de sesión (logout).
+
+
+## <b>Explicación General del código - Manipulación de Strings</b>
 - **Funciones de Manipulación de Strings**: Se definen varias funciones que permiten modificar el contenido de un textarea (`txtarea`). Las funciones incluyen:
   - **`esMayus`**: Convierte todo el texto a mayúsculas.
   - **`esMinus`**: Convierte todo el texto a minúsculas.
@@ -48,7 +49,7 @@ Este proyecto implementa una función de inicio de sesión simple en JavaScript 
   - **`esRandom`**: Ejecuta aleatoriamente una de las funciones de manipulación de texto.
   - **Control de intervalos**: Permite ejecutar funciones de manipulación a intervalos regulares con opciones de velocidad.
 
-## Explicación General del código - Gestión de Login y LocalStorage
+## <b>Explicación General del código - Gestión de Login y LocalStorage</b>
 
 - **Modo Estricto**: Se utiliza `"use strict";` para mejorar la detección de errores y el rendimiento.
 - **Verificación de Login**: Al cargar la página, se comprueba si el usuario ya ha iniciado sesión mediante LocalStorage. Si el estado de `loggedIn` es verdadero, se redirige al usuario a `main.html`.
@@ -62,7 +63,6 @@ Este proyecto implementa una función de inicio de sesión simple en JavaScript 
   - **`deleteLocalStorage`**: Elimina un valor de LocalStorage.
 - **Función de Logout**: Al hacer clic en el elemento de logout, se elimina el estado de login y se redirige al usuario a la página de login.
 
-<h1 id="code">CÓDIGO</h1>
 
 ```javascript
 
