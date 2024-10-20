@@ -64,6 +64,11 @@ El navbar ha sido rediseñado para ser más sencillo y directo. Ahora incluye:
 - **Función de Logout**: Al hacer clic en el elemento de logout, se elimina el estado de login y se redirige al usuario a la página de login.
 
 
+## Incluye API simple de rick and morty
+Rick and Morty API
+La API de Rick and Morty es una interfaz RESTful que proporciona acceso a información sobre los personajes, episodios y localizaciones de la popular serie animada "Rick and Morty".
+
+
 ```javascript
 
 /* JS ACTIVIDAD STRING */
