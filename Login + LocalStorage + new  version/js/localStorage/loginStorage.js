@@ -3,7 +3,7 @@
 // Verificar si el usuario ya ha iniciado sesión
 if (getLocalStorage("loggedIn") === "true") {
     // Si el usuario ya ha iniciado sesión, redirigir a main.html
-    window.location.href = "../../main.html";
+    window.location.href = "/ejercicios/main/main.html";
 }
 
 // Función de inicio de sesión
@@ -27,7 +27,7 @@ function logueo() {
             } else if (user === credencialUno && pass === credencialDos) {
                 // Guardar estado de login en localStorage
                 setLocalStorage("loggedIn", "true");
-                window.location.href = "../../main.html";
+                window.location.href = "/ejercicios/main/main.html";
             } else {
                 alert("El usuario o contraseña es incorrecto");
             }

@@ -22,9 +22,9 @@ function logout() {
     const logoutElement = document.getElementById("logout");
     if (logoutElement) {
         logoutElement.addEventListener("click", function (event) {
-            event.preventDefault(); // Evita que el enlace se siga
-            deleteLocalStorage("loggedIn"); // Elimina el estado de login
-            window.location.href = "/ejercicios/login/login.html"; // Redirige al login
+            event.preventDefault(); 
+            deleteLocalStorage("loggedIn"); 
+            window.location.href = "/login.html"; // Redirige al login
         });
     }
 }
