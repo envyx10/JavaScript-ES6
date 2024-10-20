@@ -1,9 +1,8 @@
 <!-- 
 
-Trabajo realizado por Pablo gil diaz alias Envy.
-Finalizado dia 03/10.
-Asignatura - Entorno cliente.
-Profesor - J.
+Trabajo realizado 
+por Pablo Gil Díaz alias Envy.
+Asignatura -  Entorno cliente.
 
 -->
 
@@ -28,17 +27,32 @@ Profesor - J.
 > - **Ejercicios Prácticos**: Dos ejercicios interactivos que muestran resultados mediante JavaScript. <br>
 > - **Diseño Moderno**: Interfaz de usuario limpia y moderna, optimizada para dispositivos móviles y de escritorio.
 
-<h1 id="code-snippets">Code snippets</h1>
-He utilizado los siguientes:
 
-- Bootstrap 5
-- w3school
-- copilot
 
-<h1 id="mockups">Mockups</h1>
+# Última Versión - Nuevas Modificaciones
 
-![login_mock](https://github.com/user-attachments/assets/b2ed1c56-b44d-4229-8078-c32be1b102af)
-![mockup_mobile-me](https://github.com/user-attachments/assets/1298a1bb-cc49-4d53-ac02-ebf8f45827ad)
-![mockup_main](https://github.com/user-attachments/assets/543e98e0-b3c6-4f31-9847-65590f033947)
-![mockup_EJ01](https://github.com/user-attachments/assets/964bef26-c172-42d0-a063-4abaa585904a)
+**Estructura de Carpetas**
+En esta nueva versión, se ha reorganizado completamente la estructura de carpetas para mejorar la organización y facilitar la navegación:
 
+- **localStorage**: Contiene todos los documentos relacionados con el almacenamiento local.
+- **Strings**: Incluye todos los documentos que tratan sobre la manipulación de cadenas de texto.
+
+## <b>Ejercicios</b>
+Se ha simplificado los ejercicios disponibles. Los ejercicios básicos iniciales han sido eliminados y se han mantenido aquellos a partir de `plantilla03`, los cuales ofrecen un mayor valor educativo.
+
+## <b>Nav-bar Mejorado</b>
+El navbar ha sido rediseñado para ser más sencillo y directo. Ahora incluye:
+
+- **Enlace a GitHub**: Un acceso directo a mi repositorio.
+- **Subselect de Ejercicios**: Un menú desplegable que contiene los ejercicios a entregar.
+- **Icono de logout**: Botón para desloguearte de la sesión e ir al login.
+
+## <b>Cambios en el `main.html`</b>
+- El archivo `main.html` ha recibido una actualización menor. La sección "About Me" ahora presenta una breve introducción personal, ofreciendo una visión rápida sobre quién soy.
+
+- El archivo `main.html` también ha sufrido un cambio de organización y ahora está ubicado dentro de una carpeta llamada `main`. He decidido destacar el archivo `login.html` principalmente por cuestiones de organización.
+
+## <b>Datos IMPORTANTES a tener en cuenta</b>
+- Es necesario ejecturar el ejercicio mediante **LiveServer** para ver el funcionamiento completo, dado que puede generar fallos en la preview de web en github.
+
+- Al usar localStorage para gestionar la sesión, una vez que inicias sesión, siempre serás dirigido al main.html porque se reconoce que ya has iniciado sesión, similar a cómo funcionan las cookies. Para volver a la pantalla de inicio de sesión, utiliza la funcionalidad de cierre de sesión (logout).
