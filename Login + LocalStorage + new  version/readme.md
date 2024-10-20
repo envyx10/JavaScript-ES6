@@ -338,7 +338,8 @@ document.addEventListener("DOMContentLoaded", function () {
 ```
 
 ```javascript
-## API
+
+// API RICK AND MORTY
 
 "use strict";
 
