@@ -42,6 +42,7 @@ Este proyecto implementa un sistema básico de autenticación de usuarios utiliz
 El código permite abrir o crear una base de datos llamada `UsuariosDB` y gestionar un conjunto de usuarios predefinidos. Incluye funcionalidades para verificar las credenciales de los usuarios durante el proceso de inicio de sesión.
 
 ## Funcionamiento del Código
+![image](https://github.com/user-attachments/assets/de13872b-0d58-43cc-80d4-85e0a0861c9c)
 
 ### 1. Apertura de la Base de Datos
 
